@@ -1,0 +1,86 @@
+<!--HTML-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light and Dark Mode</title>
+    <link rel = 'stylesheet' href = "style.css">
+    <link rel = "shortcut icon" type = image/png href = "faviconld.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+<body>
+    <!--Dark Mode-->
+    <div class="theme-switch-wrapper">
+        <span id = "toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class ="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type = "checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!--Navigation Bar-->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PLACES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!--Home Section-->
+    <section id="home">
+        <div class="home-section">
+            <h1>Language Learning</h1>
+            <h2> 5 Places to learn a New Language online for free</h2>
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about">
+        <h1>Undraw Illustrations</h1>
+        <div class="about-container">
+            <div class="img-container">
+                <h2>Studying</h2>
+                <img src="undraw_studying_light.svg" alt="codepen" id = "image1">
+                </div>
+                <div class="img-container">
+                <h2>Conversation</h2>
+                <img src="undraw_conversation_light.svg" alt="codepen" id = "image2">
+                </div>
+                <div class = "img-container">
+                <h2>Feedback</h2>
+                <img src="undraw_feedback_light.svg" alt="codepen" id = "image3">
+            </div>
+        </div>
+    </section>
+    <!--Project Section-->
+    <section id="projects">
+        <h1>Buttons</h1>
+        <div class="buttons">
+            <button class = "duolingo">Duolingo</button>
+            <button class="livemocha">Livemocha</button>
+            <button class="babbel">Babbel</button>
+            <button class="busuu">Busuu</button>
+            <button class="openculture">Open Culture</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Learning a new language can enrich your life in ways you wouldn't expect, but it still sounds intimidating, doesn't it? Kids seem to pick up on new languages so easily, but once you're a bit older... well, it's tough to learn new skills in general.
+
+                And it can be expensive, too. There are a ton of costly options, from online courses to night school to full college or university courses.
+                
+                What you may want to try first is a free online course. There are some great options ranging from beginner and intro-level courses to conversational courses, to comprehensive ones that will leave you fluent in the language of your choice.Before you throw down a whack of cash on a language learning system, check out these 5 places you can learn a new language online for free.</p>
+        </div>
+    </section>
+    <!--Contact Section-->
+    <section id="contact">
+        <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        </div>
+    </section>
+    <script src = "script.js"></script>
+</body>
+</html>
